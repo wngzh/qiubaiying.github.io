@@ -97,9 +97,9 @@ service-worker: true
 
 
 # Friends
-friends: [
-    {
-        title: "Apple",
-        href: "https://apple.com"
-    }
-]
+#friends: [
+#    {
+#        title: "Apple",
+#        href: "https://apple.com"
+#    }
+#]
