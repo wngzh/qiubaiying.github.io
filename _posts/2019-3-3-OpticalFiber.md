@@ -6,6 +6,7 @@ date:       2019-03-03
 author:     Wngzh
 header-img: 'img/post-bg-rwd.jpg'
 catalog: true
+mathjax: true
 tags:
     - 光纤
     - 通信
