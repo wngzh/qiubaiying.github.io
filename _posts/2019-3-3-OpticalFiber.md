@@ -151,4 +151,32 @@ $$\alpha_R=C/\lambda^4$$
 
 4、辐射损耗或者弯曲损耗，分为两类，弯曲半径远大于光纤直径、光纤成缆时的随机微弯。远离圆心的能量行进慢，导致能量的丢失。
 
-二、色散：不同频率或者不同模式的
+二、色散：不同频率或者不同模式的光脉冲在光纤中传输速度不同，引起时延差和光脉冲的展宽。
+
+分为模间色散（多模传输的各模式传播常数不同）、波长色散（传播常数-波导色散、折射率-材料色散随波长变化）、偏振模色散
+
+与模间色散相对应的是模内色散，称为GVD群速色散、光纤色散，不同频率分量以不同的速度传播。包括材料色散$D_M$(折射率随波长变化)与波导色散$D_W$（包层中传播的光功率速率大，大小取决于光纤设计）。$D=D_W+D_M$
+
+相速度和群速度：
+$$E(t,z)=Aexp[j(\omega t-\beta z)]$$
+相速度$v_p=\omega / \beta$，群速度$v_g=\frac{d\omega}{d\beta}$，表征的是光信号包络的传输速度——$\beta-\omega$曲线
+
+群时延
+$$\tau(\omega)=\frac{L}{v_g}=L\frac{d\beta}{\omega}$$
+
+光脉冲展宽：导致脉冲的不同频率分量不再同时到达输出端。
+$$\Delta \tau=\frac{d\tau }{d\omega}\bullet \Delta \omega=\frac{d^2\beta}{d\omega^2}\bullet L\Delta \omega=\beta_2L\Delta \omega$$
+$\beta_2={d^2\beta}/{d\omega^2}$群速色散，决定了脉冲展宽的程度。表示为色散参数$D$：
+$$D=\frac{1}{L}\frac{\partial\tau}{\partial\lambda}=\frac{1}{L}\frac{\partial\tau}{\partial\omega}\frac{\partial\omega}{\partial\lambda}=-\frac{2\pi c}{\lambda^2}\beta_2$$
+
+![][id]
+
+[id]: /img/fiber_dispersion.png  "光纤色散"
+
+$\lambda_D$是零色散波长，对于$\lambda<\lambda_D$，正常色散区，$D<0,\beta_2>0$，红快蓝慢，反之为反常色散区。
+
+可以通过控制光纤的设计来调整零色散波长，在零色散波长处，会发生严重的四波混频FWM
+
+高阶色散
+
+在$\lambda_D$处色散不完全消失，存在高阶色散，取决于色散斜率$S=dD/d\lambda$（仅当在零色散附近几个纳米时考虑）
