@@ -1,14 +1,14 @@
 {
-    "name": "wngzh",
+    "name": "wzghzw",
     "title": "Private blog",
     "author": "wng",
     "version": "1.0.0",
-    "homepage": "http://wngzh.github.io",
+    "homepage": "http://wzghzw.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/wngzh/wngzh.github.io"
+        "url": "https://github.com/wzghzw/wzghzw.github.io"
     },
-    "bugs": "https://github.com/wngzh/wngzh.github.io/issues",
+    "bugs": "https://github.com/wzghzw/wzghzw.github.io/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",

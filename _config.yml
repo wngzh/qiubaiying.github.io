@@ -1,13 +1,13 @@
 # Site settings
-title: Wngzh
+title: wzghzw
 SEOTitle: 一点微小的贡献
 header-img: img/post-bg-desk.jpg
 email: ijenhd#163.com
 description: 一点微小的贡献
 keyword: "smg"
-url: "http://wngzh.github.io"          # your host, for absolute URL
+url: "http://wzghzw.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/wngzh/wngzh.github.io.git" # you code repository
+github_repo: "https://github.com/wzghzw/wzghzw.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -64,9 +64,9 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 7f4db91984150fc015b1                            #生成的clientID
   clientSecret: 0f2ebfd32a1a47367158fc61edeb91785c9ce868    #生成的clientSecret
-  repo: wngzh.github.io    #仓库名称
-  owner: wngzh    #github用户名
-  admin: wngzh
+  repo: wzghzw.github.io    #仓库名称
+  owner: wzghzw    #github用户名
+  admin: wzghzw
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -100,6 +100,6 @@ service-worker: true
 friends: [
     {
         title: "No Friend",
-        href: "https://wngzh.github.io/"
+        href: "https://wzghzw.github.io/"
     }
 ]
